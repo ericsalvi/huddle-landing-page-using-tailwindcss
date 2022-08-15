@@ -3,7 +3,15 @@ module.exports = {
   mode: "jit",
   content: ["./index.html"],
   theme: {
-    extend: {},
+    fontFamily: {
+      poppins: ["'Poppins'", "sans-serif"],
+    },
+    extend: {
+      colors: {
+        violet: "hsl(257, 40%, 49%)",
+        magenta: "hsl(300, 69%, 71%)",
+      },
+    },
   },
   plugins: [],
 };

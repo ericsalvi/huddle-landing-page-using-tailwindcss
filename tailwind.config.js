@@ -8,8 +8,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        violet: "hsl(257, 40%, 49%)",
-        magenta: "hsl(300, 69%, 71%)",
+        primaryViolet: "hsl(257, 40%, 49%)",
+        primaryMagenta: "hsl(300, 69%, 71%)",
       },
     },
   },

@@ -587,6 +587,11 @@ video {
   gap: 0.5rem;
 }
 
+.bg-primaryViolet {
+  --tw-bg-opacity: 1;
+  background-color: hsl(257 40% 49% / var(--tw-bg-opacity));
+}
+
 .px-\[80px\] {
   padding-left: 80px;
   padding-right: 80px;
@@ -598,6 +603,10 @@ video {
 
 .pb-\[40px\] {
   padding-bottom: 40px;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
 }
 
 .text-white {

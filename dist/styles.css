@@ -551,7 +551,88 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-blue-600 {
+.flex {
+  display: flex;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.bg-violet {
+  --tw-bg-opacity: 1;
+  background-color: hsl(257 40% 49% / var(--tw-bg-opacity));
+}
+
+.py-\[80\] {
+  padding-top: 80;
+  padding-bottom: 80;
+}
+
+.py-\[80px\] {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.px-\[80px\] {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.pt-\[50\] {
+  padding-top: 50;
+}
+
+.pb-\[40\] {
+  padding-bottom: 40;
+}
+
+.pt-\[50px\] {
+  padding-top: 50px;
+}
+
+.pb-\[40px\] {
+  padding-bottom: 40px;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-\[white\] {
   --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }

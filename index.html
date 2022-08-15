@@ -8,16 +8,29 @@
   
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <link rel="stylesheet" href="./dist/styles.css">
 </head>
-<body>
-
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
+<body class="font-poppins bg-violet text-white px-[80px] pt-[50px] pb-[40px] min-h-screen flex flex-col justify-between">
+  <img src="./images/logo.svg" alt="Huddle logo" class="max-w-[200px] h-auto">
+  <main class="flex">
+    <img src="./images/illustration-mockups.svg" alt="mockup of the huddle illustration" class="flex-1">
+    <div class="flex-1">
+      <h1 class="">Build The Community Your Fans Will Love</h1>
+      <p>
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+        Create connections with your users as you engage in genuine discussion.
+      </p>
+      <button>Register</button>
+    </div>
+  </main>
+  <div class="flex justify-end gap-2">
+    <div><i class="fab fa-facebook-f"></i></div>
+    <div><i class="fab fa-twitter"></i></div>
+    <div><i class="fab fa-instagram"></i></div>
+  </div>
 </body>
 </html>

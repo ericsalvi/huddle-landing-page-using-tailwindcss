@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontendmentor.io]()
-- Live Site URL: [https://ericsalvi.github.io/huddle-landing-page-component/]()
+- Solution URL: [Frontendmentor.io](https://www.frontendmentor.io/solutions/huddle-lp-using-only-tailwindcss-it-is-a-first-use-for-these-projects-VxTougFqWf)
+- Live Site URL: [https://ericsalvi.github.io/huddle-landing-page-using-tailwindcss/](https://ericsalvi.github.io/huddle-landing-page-using-tailwindcss/)
 
 ## My process
 

@@ -4,9 +4,9 @@
 
 @layer components {
   .social-container {
-    @apply cursor-pointer p-5 aspect-square h-[28px] w-auto grid place-content-center rounded-full border border-white hover:border-primaryMagenta transition-all ease-in-out;
+    @apply cursor-pointer p-[1.65rem] md:p-5 aspect-square h-[28px] w-auto grid place-content-center rounded-full border border-white hover:border-primaryMagenta transition-all ease-in-out;
   }
   .social-icons {
-    @apply transition-all ease-in-out text-[1.2rem];
+    @apply transition-all ease-in-out text-[1.73rem] md:text-[1.2rem];
   }
 }

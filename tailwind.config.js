@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     fontFamily: {
       poppins: ["'Poppins'", "sans-serif"],
+      openSans: ["'Open Sans'", "sans-serif"],
     },
     extend: {
       colors: {
@@ -14,6 +15,9 @@ module.exports = {
       backgroundImage: {
         "desktop-pattern": "url('../images/bg-desktop.svg')",
         "mobile-pattern": "url('../images/bg-mobile.svg')",
+      },
+      backgroundSize: {
+        "100%": "100%",
       },
     },
   },

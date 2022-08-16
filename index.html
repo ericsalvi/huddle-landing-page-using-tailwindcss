@@ -10,27 +10,26 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <link rel="stylesheet" href="./dist/styles.css">
 </head>
-<body class="antialiased font-poppins bg-primaryViolet bg-desktop-pattern bg-cover bg-no-repeat text-white pl-[74px] pr-[80px] pt-[50px] pb-[40px] min-h-screen flex flex-col justify-start">
-  <img src="./images/logo.svg" alt="Huddle logo" class="max-w-[210px] h-auto mb-[85px] select-none">
-  <main class="flex flex-wrap gap-[55px]">
+<body class="antialiased bg-primaryViolet bg-mobile-pattern md:bg-desktop-pattern bg-100% md:bg-cover bg-no-repeat text-white pl-[68px] md:pl-[74px] pr-[75px] md:pr-[80px] pt-[64px] md:pt-[50px] pb-[80px] md:pb-[40px] min-h-screen flex flex-col justify-start">
+  <img src="./images/logo.svg" alt="Huddle logo" class="md:max-w-[210px] max-w-[255px] h-auto mb-[120px] md:mb-[85px] select-none">
+  <main class="flex text-center md:text-left flex-wrap gap-[55px]">
     <img src="./images/illustration-mockups.svg" alt="mockup of the huddle illustration" class="flex-1 select-none">
     <div class="flex-1">
-      <h1 class="mb-4 text-[38px] tracking-wide leading-relaxed mt-[45px] font-bold">Build The Community Your Fans Will Love</h1>
-      <p class="mb-5 font-light text-[1.1rem] leading-relaxed tracking-tight">
+      <h1 class="mb-5 md:mb-4 text-[2.75rem] md:text-[38px] font-poppins tracking-wide leading-relaxed mt-[45px] font-bold">Build The Community Your Fans Will Love</h1>
+      <p class="font-openSans mb-10 md:mb-5 font-light text-[2rem] md:text-[1.1rem] leading-relaxed tracking-normal md:tracking-tight">
         Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
         Create connections with your users as you engage in genuine discussion.
       </p>
-      <button class="bg-white transition-all ease-in-out hover:bg-primaryMagenta rounded-full text-lg text-primaryViolet px-[4rem] py-[.8rem] shadow-xl select-none">Register</button>
+      <button class="font-poppins bg-white transition-all ease-in-out hover:bg-primaryMagenta rounded-full text-2xl md:text-lg text-primaryViolet mb-[125px] md:mb-0 sm:px-[9rem] px-[8rem] md:px-[4rem] py-6 md:py-[.8rem] shadow-xl select-none">Register</button>
     </div>
   </main>
-  <div class="flex mt-auto justify-end gap-3 hover:hidden">
-    <div class="social-container group"><i class="fab fa-facebook-f social-icons  group-hover:text-primaryMagenta"></i></div>
+  <div class="flex mt-auto justify-center md:justify-end gap-5 md:gap-3">
+    <div class="social-container group"><i class="fab fa-facebook-f social-icons group-hover:text-primaryMagenta"></i></div>
     <div class="social-container group"><i class="fab fa-twitter social-icons group-hover:text-primaryMagenta"></i></div>
     <div class="social-container group"><i class="fab fa-instagram social-icons group-hover:text-primaryMagenta"></i></div>
   </div>
 </body>
-</html>

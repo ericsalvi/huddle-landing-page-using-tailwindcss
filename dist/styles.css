@@ -719,10 +719,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-\[1\.2rem\] {
-  font-size: 1.2rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -772,6 +768,10 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover\:hidden:hover {
+  display: none;
 }
 
 .hover\:bg-primaryMagenta:hover {

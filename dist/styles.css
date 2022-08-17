@@ -555,7 +555,7 @@ video {
   display: grid;
   aspect-ratio: 1 / 1;
   height: 28px;
-  width: auto;
+  width: 28px;
   cursor: pointer;
   place-content: center;
   border-radius: 9999px;
@@ -628,8 +628,16 @@ video {
   min-height: 100vh;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .max-w-\[255px\] {
   max-width: 255px;
+}
+
+.max-w-\[40em\] {
+  max-width: 40em;
 }
 
 .flex-1 {
@@ -684,8 +692,22 @@ video {
   background-image: url('../images/bg-mobile.svg');
 }
 
+.bg-100\% {
+  background-size: 100%;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-top {
+  -o-object-position: top;
+     object-position: top;
 }
 
 .px-\[8rem\] {
@@ -720,6 +742,10 @@ video {
 
 .font-poppins {
   font-family: 'Poppins', sans-serif;
+}
+
+.font-openSans {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .text-\[2\.75rem\] {
